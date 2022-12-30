@@ -3,3 +3,4 @@ public class Static {
         int value = 100;
     }
 }
+

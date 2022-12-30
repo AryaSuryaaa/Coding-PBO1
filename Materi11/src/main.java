@@ -8,3 +8,4 @@ public class main {
         System.out.println(inner2.value);
     }
 }
+
