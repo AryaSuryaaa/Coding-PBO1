@@ -10,9 +10,8 @@ class outerClass {
 
 public class NonStatic {
     public static void main(String[] args) {
-        outerClass outerClass = new outerClass();
-
-        System.out.println(outerClass.kalimat);
+        outerClass.NonStaticInnerClass inner = new outerClass().new NonStaticInnerClass();
+        inner.cetak();
     }
 
 }
