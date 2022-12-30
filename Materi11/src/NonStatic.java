@@ -1,4 +1,4 @@
-class outerClass {
+public class NonStatic {
     String kalimat = "mencetak Nested Class";
 
     class NonStaticInnerClass {
@@ -6,14 +6,6 @@ class outerClass {
             System.out.println(kalimat);
         }
     }
-}
-
-public class NonStatic {
-    public static void main(String[] args) {
-        outerClass.NonStaticInnerClass inner = new outerClass().new NonStaticInnerClass();
-        inner.cetak();
-    }
-
 }
 
 

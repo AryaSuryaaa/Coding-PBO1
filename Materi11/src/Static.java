@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class Static {
+public class Static {
+    static class innerClass {
+        int value = 100;
+    }
 }
