@@ -22,7 +22,7 @@ public class jawab2 {
             System.out.println("Mendapat bonus Setrika");
         } else if (result >= 1000000 && result < 1500000) {
             System.out.println("Mendapat bonus Payung");
-        } else if (result >= 500000 || result < 1000000) {
+        } else if (result >= 500000 && result < 1000000) {
             System.out.println("Mendapat bonus Ballpoint");
         }
     }
